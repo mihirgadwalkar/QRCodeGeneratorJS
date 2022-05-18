@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>QR Code Generator</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 style="text-align: center; color: red;">QR Code Generator</h1>
+        <form action="" id="qrform">
+            <label for="data">Paste a URL or Enter Text to generate QR code</label>
+            <input type="text" name="URL" id="data" placeholder="Enter URL, Text... etc"/>
+            <input id="submit" type="submit" value="Generate QR Code" />
+        </form>
+        <div class="frame">
+            <img id="qrcode" src="" alt=""/>
+        </div>
+    </div>
+    <footer>
+        <p>Developed by Mihir Gadwalkar with ❤️</p>
+        <small>Best Wishes from, <a href="https://www.linkedin.com/in/mihir-gadwalkar/">Mihir</a>.</small>
+    </footer> 
+    <script src="app.js"></script>
+  </body>
+</html>
